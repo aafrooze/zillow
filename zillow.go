@@ -207,7 +207,7 @@ type DeepPrincipal struct {
 	Links            Links              `xml:"links"`
 	Address          Address            `xml:"address"`
 	TaxAssessmentYear int                `xml:"taxAssessmentYear"`
-	TaxAssesment     float64            `xml:"taxAssessment"`
+	TaxAssessment     float64            `xml:"taxAssessment"`
 	YearBuilt        int                `xml:"yearBuilt"`
 	LotSizeSqFt      int                `xml:"lotSizeSqFt"`
 	FinishedSqFt     int                `xml:"finishedSqFt"`
@@ -225,7 +225,7 @@ type DeepComp struct {
 	Links            Links     `xml:"links"`
 	Address          Address   `xml:"address"`
 	TaxAssessmentYear int       `xml:"taxAssessmentYear"`
-	TaxAssesment     float64   `xml:"taxAssessment"`
+	TaxAssessment     float64   `xml:"taxAssessment"`
 	YearBuilt        int       `xml:"yearBuilt"`
 	LotSizeSqFt      int       `xml:"lotSizeSqFt"`
 	FinishedSqFt     int       `xml:"finishedSqFt"`
